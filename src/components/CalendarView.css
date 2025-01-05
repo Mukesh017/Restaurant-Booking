@@ -1,0 +1,39 @@
+.calendar-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+}
+
+.day-picker-wrapper {
+  display: inline-block; 
+  text-align: center;  
+  padding: 10px;
+  border-radius: 5px; 
+}
+
+.DayPicker-Day {
+  width: 30px; 
+  height: 30px; 
+  border: 1px solid black; 
+  border-radius: 3px; 
+  margin: 2px; 
+  display: inline-block; 
+  text-align: center; 
+  line-height: 30px; 
+}
+
+.DayPicker-Day--selected {
+  background-color: #007bff; 
+  color: white;
+}
+
+.DayPicker-Day--today {
+  border: 1px solid #007bff; 
+}
+
+.DayPicker-Day:hover {
+  background-color: skyblue; 
+}
